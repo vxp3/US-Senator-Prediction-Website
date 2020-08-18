@@ -655,6 +655,69 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Scores Cards
+--------------------------------------------------------------*/
+
+.scores {
+  background-color: #EFF0F0;
+  }
+
+.scores .count-box {
+  box-shadow: -10px -5px 40px 0 rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+}
+
+.scores .count-box i {
+  display: block;
+  font-size: 30px;
+  color: #1bbca3;
+  float: left;
+}
+
+.scores .count-box span {
+  font-size: 42px;
+  line-height: 24px;
+  display: block;
+  font-weight: 700;
+  color: #58716d;
+  margin-left: 50px;
+}
+
+.scores .count-box p {
+  padding: 30px 0 0 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.scores .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #7c9995;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
+.scores .count-box a:hover {
+  color: #a7bbb8;
+}
+
+.scores .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+/*--------------------------------------------------------------
 # Senator Search
 --------------------------------------------------------------*/
 .search .icon-box {
